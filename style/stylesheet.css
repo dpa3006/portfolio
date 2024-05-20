@@ -29,7 +29,7 @@ nav a:hover {
     color: #F4C2C2;
 }
 #deco{
-    width: 18rem;
+    width: 22rem;
     position: absolute;
     margin-left: 1000px;
     margin-top: 160px;
@@ -65,8 +65,12 @@ nav a:hover {
     font-size: 1.3rem;
     margin: 0 120px;
 }
-#sobre a{
+#sobre a, #projects_box a{
     color: black;
+}
+#sobre a:hover, #projects_box a:hover{
+    color: white;
+    cursor: pointer;
 }
 #habilidades{
     background-color: #543457;
@@ -76,7 +80,7 @@ nav a:hover {
     border-bottom: 3px dotted #DB79C7;
 }
 
-#habilidades h3{
+#habilidades h3, #proyectos h3{
     font-size: 1.6rem;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -105,6 +109,18 @@ nav a:hover {
     padding: 50px;
     border-top: 3px dotted #543457;
     border-bottom: 3px dotted #DB2F7C;  
+}
+#projects_box{
+    padding: 1rem;
+}
+#ecommerce_tittle a {
+    text-decoration: none;
+}
+#ecommerce img{
+    border-radius: 5px;
+}
+#ecommerce img:hover{
+    filter: drop-shadow(8px 8px 10px black);
 }
 #contacto{
     background-color: #DB2F7C;
